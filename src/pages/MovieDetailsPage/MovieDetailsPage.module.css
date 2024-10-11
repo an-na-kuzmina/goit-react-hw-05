@@ -1,0 +1,44 @@
+.wrapper {
+  padding: 18px;
+}
+
+.link {
+  display: inline-block;
+  margin-bottom: 18px;
+  font-size: 16px;
+  color: black;
+  background-color: yellow;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 6px;
+  border-radius: 6px;
+  transition: background-color 300ms ease;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: blue;
+}
+
+.movieCard {
+  display: flex;
+  gap: 14px;
+}
+
+.subTitle {
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+.span {
+  display: flex;
+  gap: 20px;
+  margin: 0px;
+  padding: 10px;
+}
+
+.active {
+  text-decoration: underline;
+  color: blue;
+}

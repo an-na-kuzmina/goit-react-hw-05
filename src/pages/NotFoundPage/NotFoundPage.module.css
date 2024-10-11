@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.link {
+  font-size: 16px;
+  color: black;
+  background-color: #c6f1fb;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 6px;
+  border-radius: 6px;
+  transition: background-color 250ms ease;
+}
+
+.link:hover {
+  background-color: #2dd2f7;
+}
